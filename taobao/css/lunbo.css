@@ -1,0 +1,124 @@
+@charset "utf-8";
+.lunbo{
+    position: relative;
+    overflow: hidden; 
+    width: 990px;
+    height: 342px;
+    text-align: right;
+}
+.lunbo_box{
+    position: relative;
+    overflow: hidden; 
+    width: 2000px;
+}
+.item{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 230px;
+    height: 315px;
+    padding: 0;
+    border: 1px solid#e5e5e5;
+}
+.item .item_img{
+    display: block;
+    width: 230px;
+    height: 230px;
+}
+.item .item_img img{
+    width: 100%;
+    height: 100%;
+}
+.now_price{
+    overflow: hidden;
+    margin: 8px 0;
+    height: 18px;
+    padding: 0 5px;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    color: #f40;
+    display: block;
+    float: left;
+}
+.now_price span:nth-child(1){
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 3px;
+}
+.now_price span:nth-child(2){
+    font-weight: 700;
+    margin-left: -5px;
+}
+.old_price{
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+    margin: 8px 0;
+    color: #aaa;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.item_tit{
+    display: block;
+    overflow: hidden;
+    margin-right: 8px;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 5px;
+    text-align: left;
+    color: #3e3e3e;
+    font-size: 12px;
+}
+.item_bottom {
+    margin: 10px 0;
+    height: 30px;
+    padding: 0 5px; 
+    font-size: 12px;
+}
+.item_bottom a:nth-child(1){
+    float: left;
+    color: #9a9a9a;
+}
+.item_bottom a:nth-child(2){
+    float: right;
+    padding: 0 3px;
+    background: #49cc00;
+    line-height: 16px;
+    margin-left: 5px;
+    color: #fff;
+}
+.item_bottom a:nth-child(3){
+    display: block;
+    margin-left: 5px;
+    width: 16px;
+    float: right;
+    height: 16px;
+    background: url(../images/cat1.png) 0 0 no-repeat;
+    background-position: -213px -199px;
+}
+.item_dou{
+    left: 44%;
+    bottom: 0;
+    position: absolute;
+    width: 155px;
+    height: 15px;
+}
+.item_dou li{
+    float: left;
+    margin:0 8px;
+}
+.item_dou li a{
+    background-color: #dbdbdb;
+    height: 15px;
+    width: 15px;
+    display: block;
+    border-radius: 50%;
+}
+.item_dou .action a{
+    background: #f40;
+}

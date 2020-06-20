@@ -1,0 +1,51 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,span,img,input,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+ul,li,ol{
+    list-style: none;
+}
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+a,u{
+    text-decoration: none;
+}
+img{
+    border: 0;
+    display: block;
+}
+input{
+    outline: none;
+}
+.float_l{
+    float: left;
+}
+.float_r{
+    float: right;
+}
+.padding_0{
+    padding: 0 !important;
+}
+.margin_0{
+    margin: 0 !important;
+}
+.border_0{
+    border: 0 !important; 
+}
+.clear_fix::after{
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
